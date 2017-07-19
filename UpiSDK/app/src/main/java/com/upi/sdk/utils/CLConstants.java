@@ -1,0 +1,117 @@
+package com.upi.sdk.utils;
+
+/**
+ * Created by NeeloyG on 28-04-2016.
+ */
+public class CLConstants {
+
+    public static final String INPUT_KEY_KEY_CODE = "keyCode";
+    public static final String INPUT_KEY_XML_PAYLOAD = "keyXmlPayload";
+    public static final String INPUT_KEY_CONTROLS = "controls";
+    public static final String INPUT_KEY_CONFIGURATION = "configuration";
+    public static final String INPUT_KEY_SALT = "salt";
+    public static final String INPUT_KEY_TRUST = "trust";
+    public static final String INPUT_KEY_PAY_INFO = "payInfo";
+    public static final String INPUT_KEY_LANGUAGE_PREFERENCE = "languagePref";
+    public static final String INPUT_KEY_RESULT_RECEIVER = "resultReceiver";
+    public static final String OUTPUT_KEY_CRED = "cred";
+    public static final String OUTPUT_KEY_ERROR = "error";
+    public static final String FIELD_CRED_ALLOWED = "CredAllowed";
+    public static final String FIELD_TYPE = "type";
+    public static final String FIELD_SUBTYPE = "subtype";
+    public static final String FIELD_DTYPE = "dType";
+    public static final String FIELD_DLENGTH = "dLength";
+    public static final String FIELD_PAYER_BANK_NAME = "payerBankName";
+    public static final String FIELD_BG_COLOR = "backgroundColor";
+    public static final String FIELD_FONT_COLOR = "color";
+    public static final String FIELD_TXN_ID = "txnID";
+    public static final String FIELD_TXN_AMOUNT = "txnAmount";
+    public static final String FIELD_TXN_CCY = "txnCurr";
+    public static final String FIELD_PAY_INFO_NAME = "name";
+    public static final String FIELD_PAY_INFO_VALUE = "value";
+    public static final String FIELD_ERROR_CODE = "errorCode";
+    public static final String FIELD_ERROR_TEXT = "errorText";
+    public static final String FIELD_DATA = "data";
+    public static final String FIELD_CODE = "code";
+    public static final String FIELD_SKEY = "Skey";
+    public static final String FIELD_KI = "ki";
+    public static final String FIELD_PID = "PID";
+    public static final String FIELD_HMAC = "Hmac";
+    public static final String SALT_FIELD_TXN_ID = "txnId";
+    public static final String SALT_FIELD_TXN_AMOUNT = "txnAmount";
+    public static final String SALT_FIELD_APP_ID = "appId";
+    public static final String SALT_FIELD_DEVICE_ID = "deviceId";
+    public static final String SALT_FIELD_MOBILE_NUMBER = "mobileNumber";
+    public static final String SALT_FIELD_CREDENTIAL = "credential";
+    public static final String SALT_FIELD_PAYER_ADDR = "payerAddr";
+    public static final String SALT_FIELD_PAYEE_ADDR = "payeeAddr";
+    static final String VALIDATION_ALPHA = "ALPH";
+    static final String VALIDATION_ALPHA_REGEX = "validation.alpha.regex";
+    static final String VALIDATION_ALPHA_ERROR = "validation.alpha.error.message";
+    static final String VALIDATION_NUM_REGEX = "validation.num.regex";
+    static final String VALIDATION_NUM_ERROR = "validation.num.error.message";
+    static final String VALIDATION_ALPHANUM_REGEX = "validation.alphanum.regex";
+    static final String VALIDATION_ALPHANUM_ERROR = "validation.alphanum.error.message";
+    static final String LABEL_MPIN = "Enter your MPIN";
+    static final String LABEL_OTP = "Enter your OTP";
+    public static final String CREDTYPE_MPIN = "MPIN";
+    public static final String CREDTYPE_OTP = "OTP";
+    public static final String CREDTYPE_SMS = "SMS";
+    public static final String CREDTYPE_EMAIL = "EMAIL";
+    public static final String CREDTYPE_HOTP = "HOTP";
+    public static final String CREDTYPE_TOTP = "TOTP";
+    public static final String VALIDATION_PROPERTIES = "validation.properties";
+    public static final String VERSION_PROPERTIES = "version.properties";
+    public static final String CL_PROPERTIES = "cl-app.properties";
+    public static final String CL_MESSAGES = "cl-messages";
+    public static final String LABEL_PAYEE_NAME = "payinfo.payeename.label";
+    public static final String LABEL_NOTE = "payinfo.note.label";
+    public static final String LABEL_REF_ID = "payinfo.refid.label";
+    public static final String LABEL_REF_URL = "payinfo.refurl.label";
+    public static final String LABEL_ACCOUNT = "payinfo.account.label";
+    public static final String LABEL_TXN_AMOUNT = "payinfo.txnamount.label";
+    public static final String ERROR_KEY_CODE_MISSING = "L06";
+    public static final String ERROR_MSG_KEY_CODE_MISSING = "l06.message";
+    public static final String ERROR_KEY_CODE_PARSE = "L07";
+    public static final String ERROR_MSG_KEY_CODE_PARSE = "l07.message";
+    public static final String ERROR_KEY_XML_PAYLOAD_MISSING = "L08";
+    public static final String ERROR_MSG_KEY_XML_PAYLOAD_MISSING = "l08.message";
+    public static final String ERROR_XML_PAYLOAD_PARSE = "L09";
+    public static final String ERROR_MSG_XML_PAYLOAD_PARSE = "l09.message";
+    public static final String ERROR_CONTROLS_PARSE = "L10";
+    public static final String ERROR_MSG_CONTROLS_PARSE = "l10.message";
+    public static final String ERROR_CONFIG_PARSE = "L11";
+    public static final String ERROR_MSG_CONFIG_PARSE = "l11.message";
+    public static final String ERROR_SALT_MISSING = "L12";
+    public static final String ERROR_MSG_SALT_MISSING = "l12.message";
+    public static final String ERROR_SALT_PARSE = "L13";
+    public static final String ERROR_MSG_SALT_PARSE = "l13.message";
+    public static final String ERROR_PAY_INFO_PARSE = "L14";
+    public static final String ERROR_MSG_PAY_INFO_PARSE = "l14.message";
+    public static final String ERROR_LOCALE_PARSE = "L15";
+    public static final String ERROR_MSG_LOCALE_PARSE = "l15.message";
+    public static final String ERROR_XMLPAYLOAD_VALIDATE = "L05";
+    public static final String ERROR_MSG_XMLPAYLOAD_VALIDATE = "l05.message";
+    public static final String ERROR_GENERIC = "L16";
+    public static final String ERROR_MSG_GENERIC = "l16.message";
+    public static final String VALIDATION_ERR_MSG = "validation.error.displaymessage";
+    public static final String ERROR_KEY_TRUST_MISSING = "L17";
+    public static final String ERROR_MSG_KEY_TRUST_MISSING = "l17.message";
+    public static final String ERROR_KEY_MANDATORY_SALT_VALUE_MISSING = "L18";
+    public static final String ERROR_MSG_KEY_MANDATORY_SALT_VALUE_MISSING = "l18.message";
+    public static final String ERROR_KEY_MANDATORY_SALT_VALUE_PARSE = "L19";
+    public static final String ERROR_MSG_KEY_MANDATORY_SALT_VALUE_PARSE = "l19.message";
+    public static final String ERROR_KEY_TRUST_NOT_VALID = "L20";
+    public static final String ERROR_MSG_KEY_TRUST_NOT_VALID = "l20.message";
+    public static final String ERROR_RESULT_RECEIVER_PARSE = "L21";
+    public static final String ERROR_MSG_RESULT_RECEIVER_PARSE = "l21.message";
+    public static final String BTN_SUBMIT = "Submit";
+    public static final String SALT_DELIMETER = "|";
+    public static final String MODE_INITIAL = "initial";
+    public static final String MODE_ROTATE = "rotate";
+    public static final String CL_VERSION = "2.0";
+    public static CLLanguage CL_LANGUAGE=CLLanguage.en_Us;
+
+    public CLConstants() {
+    }
+}
